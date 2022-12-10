@@ -2,6 +2,7 @@
 # Name of the workflow
 name: First Workflow
 # The trigger of the workflow workflow_dispatch means user manually triggers it
+# Available events https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows
 on: workflow_dispatch
 # Jobs to run
 jobs: 
