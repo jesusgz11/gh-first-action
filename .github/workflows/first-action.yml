@@ -17,3 +17,8 @@ jobs:
        run: echo "Hello World!"
      - name: Print Goodbye
        run: echo "Goodbye - Done"
+
+# You can run multiple commannds using the pipe like in the example below:
+# run: |
+#    echo "First output"
+#    echo "Second output"
