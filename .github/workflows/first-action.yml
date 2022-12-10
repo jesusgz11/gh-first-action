@@ -26,3 +26,4 @@ jobs:
 
 # In adition you can instead of run write "uses:" on steps to use GitHub Actions like get the repository code in the marketplace https://github.com/marketplace?category=&query=&type=actions&verification=
 # Also a common scenario is to configure the action and for that case we use the "with:" and pass the action configuration if needed
+# You can use the "needs: name-job or [job1,job2]" to wait until another job finishes successfully to start the current job
