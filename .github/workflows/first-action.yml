@@ -1,0 +1,19 @@
+# Basic Workflow
+# Name of the workflow
+name: First Workflow
+# The trigger of the workflow workflow_dispatch means user manually triggers it
+on: workflow_dispatch
+# Jobs to run
+jobs: 
+  # Name of the job (totally up to you)
+  first-job:
+    # The environment who the job will run check other OS at https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners
+    runs-on: ubuntu-latest
+    # Steps to run
+    steps: 
+      # Name of the step
+     - name: First Step
+       # Command to execute
+       run: echo "Hello World!"
+     - name: Print Goodbye
+       run: echo "Goodbye - Done"
