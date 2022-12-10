@@ -24,4 +24,5 @@ jobs:
 #    echo "First output"
 #    echo "Second output"
 
-# In adition you can instead of run write uses on steps to use GitHub Actions like get the repository code in the marketplace https://github.com/marketplace?category=&query=&type=actions&verification=
+# In adition you can instead of run write "uses:" on steps to use GitHub Actions like get the repository code in the marketplace https://github.com/marketplace?category=&query=&type=actions&verification=
+# Also a common scenario is to configure the action and for that case we use the "with:" and pass the action configuration if needed
