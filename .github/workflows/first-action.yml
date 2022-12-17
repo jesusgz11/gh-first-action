@@ -38,3 +38,5 @@ jobs:
 #    steps:
 #      - name: Output GitHub context
 #        run: echo "${{ toJSON(github) }}"
+# You can also check this site https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#filter-pattern-cheat-sheet
+# for namin convention on filters and files
