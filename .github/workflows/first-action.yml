@@ -40,3 +40,4 @@ jobs:
 #        run: echo "${{ toJSON(github) }}"
 # You can also check this site https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#filter-pattern-cheat-sheet
 # for namin convention on filters and files
+# You can also skip action using a syntax on your commits like in the official docs https://docs.github.com/en/actions/managing-workflow-runs/skipping-workflow-runs
